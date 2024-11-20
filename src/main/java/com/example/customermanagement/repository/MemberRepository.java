@@ -1,9 +1,9 @@
-package com.example.demo.repository;
+package com.example.customermanagement.repository;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.example.demo.domain.Member;
+import com.example.customermanagement.domain.Member;
 
 public interface MemberRepository {
     Member save(Member member);

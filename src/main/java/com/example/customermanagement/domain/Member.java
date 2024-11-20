@@ -1,4 +1,4 @@
-package com.example.demo.domain;
+package com.example.customermanagement.domain;
 
 public class Member {
     private Long id;
