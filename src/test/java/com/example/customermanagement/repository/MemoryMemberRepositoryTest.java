@@ -1,6 +1,4 @@
 package com.example.customermanagement.repository;
-import static org.mockito.Mockito.reset;
-
 import java.util.List;
 
 // import org.junit.jupiter.api.Assertions;
@@ -13,6 +11,8 @@ import com.example.customermanagement.domain.Member;
 /**
  *  테스트는 순서에 의존하면 안된다. 
  *  중복된 데이터를 쓰면 초기화 필요
+ *  TTD 
+ *  테스트를 먼저 만들고 구현체를 만든다.
  */
 public class MemoryMemberRepositoryTest { // 외부에서 꺼내 쓰지 않으므로 굳이 퍼블릭x
     MemoryMemberRepository repository = new MemoryMemberRepository();
